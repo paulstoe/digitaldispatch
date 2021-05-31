@@ -1,0 +1,32 @@
+<mvc:View
+    controllerName="ddforklift.controller.Welcome"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+	<Panel 
+    headerText="{i18n>Welcome.Title}"
+    width="auto">
+
+        <content>
+
+            <Input 
+            description="{i18n>Welcome.Input1}"
+            value="{i18n>Welcome.Input1}"
+            width="80%"/>
+
+            <InputBase 
+            value="wdas"
+            width="80%"/>
+
+            <Input 
+            value="Password"
+            width="80%"/>
+
+            <Button 
+            text="{i18n>Welcome.Button1}"
+            width="80%"
+            press="OpenPage1"/>
+        </content>    
+
+    </Panel>
+</mvc:View>
